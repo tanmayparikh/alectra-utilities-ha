@@ -55,7 +55,7 @@ On first load, up to 30 days of historical hourly data is backfilled.
 - **Data lag**: Alectra's API lags by approximately 2 days. Yesterday's data is incomplete and excluded.
 - **Granularity**: Hourly readings (the API endpoint is labelled `HH` but returns 60-minute intervals).
 - **Timezone**: All timestamps are interpreted as `America/Toronto` (Alectra only serves Ontario).
-- **Update interval**: Data is refreshed every hour.
+- **Update interval**: Data is refreshed every 6 hours.
 
 ## Technical Notes
 
