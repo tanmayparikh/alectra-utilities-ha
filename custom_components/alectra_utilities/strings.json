@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Alectra Utilities",
+        "description": "Enter your My Alectra account credentials.",
+        "data": {
+          "username": "Username",
+          "password": "Password",
+          "account_number": "Account Number"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password.",
+      "cannot_connect": "Cannot connect to Alectra API.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "Account is already configured."
+    }
+  }
+}

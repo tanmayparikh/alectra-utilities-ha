@@ -1,0 +1,11 @@
+{
+  "domain": "alectra_utilities",
+  "name": "Alectra Utilities",
+  "version": "0.1.0",
+  "documentation": "https://github.com/tparikh/alectra-utilities-ha",
+  "codeowners": ["@tanmayparikh"],
+  "requirements": ["curl-cffi>=0.7.0"],
+  "dependencies": ["recorder"],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
